@@ -1,0 +1,259 @@
+/* header */
+ .search-btn{
+    color:rgb(34, 177, 34);
+    border-color: rgb(34, 177, 34);
+  }
+  .search-btn:hover{
+    color:black;
+    border-color: black;
+  }
+  .search-btn:active{
+    color:rgb(34, 177, 34);
+    border-color: rgb(34, 177, 34);
+  }
+  .small-screen-logo{
+    display:none;
+  }
+  @media only screen and (max-width: 700px) {
+    .small-screen-logo{
+      display:block;
+    }
+    .large-screen-logo{
+      display:none;
+    }
+  }
+  
+  .header-links a{
+    color:black;
+  }
+  .header-links a:hover{
+    color:rgb(238, 81, 8);
+  }
+  .header-top{
+    background-color:rgb(34, 177, 34);
+    display:flex;
+    /* position: relative; */
+    justify-content: space-between;
+    top:0px;
+    margin-bottom: 0;
+    z-index: 2;
+  }
+  .header-contacts{
+    align-items: flex-start;
+    display:flex;
+    margin-top:7px;
+    /* margin-right:-80px; */
+  }
+  .header-contacts a{
+    color: white;
+  }
+  .header-contacts a:hover{
+    color: black;
+  }
+  .header-socials{
+    align-items: flex-end;
+    display:flex;
+    /* margin-left:300px; */
+    /* margin-left:800px; */
+  }
+  .header-socials a{
+    color:white;
+  }
+  .header-socials a:hover{
+    color:rgb(238, 81, 8);
+  }
+  .socials-header{
+    display:flex;
+  }
+  .header-text{
+    margin-top:-5px;
+    margin-left:7px;
+  }
+  .sticky{
+    position: sticky;
+    z-index: 3;
+    background-color: white;
+    top: 0px;
+  }
+  
+  @media only screen and (max-width: 700px) {
+    .header-top{
+      display:none;
+    }
+    .sticky{
+      position:fixed;
+      top:0px;
+      width:100%;
+    }
+  }
+  .btn-outline-light{
+    width:60%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
+  /* end header */
+
+  /* services-img gallery */
+.row {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+  -ms-flex: 25%; /* IE10 */
+  flex: 25%;
+  max-width: 50%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+  height:200px;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column {
+    -ms-flex: 50%;
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    -ms-flex: 100%;
+    flex: 100%;
+    max-width: 100%;
+    
+  }
+}
+
+/* services container */
+.comprehensive-services{
+  display:flex;
+}
+.services-info-container{
+  width:30%;
+  margin-left:40px;
+  background-color: #f1f1f1;
+}
+.services-img-containter{
+  width:100%;
+}
+.service{
+  padding:10px 20px 0px 20px;
+  color: black;
+}
+.service h6{
+  cursor:pointer;
+  font-size:18px;
+  font-weight:500;
+  margin-top:0px;
+}
+@media screen and (max-width: 600px) {
+  .comprehensive-services{
+    display:block;
+  }
+  .services-info-container{
+    width:93%;
+    padding:10px;
+    margin-left:10px;
+  }
+  .services-img-containter{
+    width:90%;
+  }
+}
+
+.service:hover{
+  background-color:black;
+  color:white;
+}
+.service-icon{
+  color:rgb(238, 81, 8);
+  float:left;
+  margin-right:5px; 
+  margin-top:5px;
+}
+.service-icon:hover{
+  color:white;
+}
+
+.image-mask{
+  background-color: rgba(0, 0, 0, 0.2);
+  height: 100%;
+  color:white;
+}
+.btn-outline-mask{
+  color:white;
+  border-color: white;
+  width:40%;
+  height:70%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.image-container{
+  background-color: transparent;
+  transition-property: background-color;
+  transition: background-color 1s ease-out 100ms;
+  margin:10px;
+}
+.image-container :hover{
+  background-color:rgb(34, 177, 34);
+  color:black;
+  transition: background-color 1s ease-in 100ms;
+}
+
+/* blogs */
+.blogs{
+  display:flex;
+}
+.current-blog{
+  width:40%;
+  background-color:#f1f1f1;
+  padding:30px;
+}
+.other-blogs{
+  width:60%;
+}
+@media screen and (max-width: 600px) {
+  .blogs{
+    display:block;
+  }
+  .current-blog{
+    width:100%;
+    margin-left:0px;
+  }
+  .other-blogs{
+    margin-left:0px;
+    width:100%;
+  }
+}
+.blogbtn{
+  background-color: black;
+  color:white;
+}
+.blogbtn:hover{
+  background-color: orangered;
+  color:black;
+}
+
+.blog-mask{
+  background-color: rgba(10, 10, 10, 0.2);
+  height: 100%;
+  color:white;
+}
+.blog-mask :hover{
+  background-color: orangered;
+  transition: background-color 1s ease-in 100ms;
+}
