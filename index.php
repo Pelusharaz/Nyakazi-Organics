@@ -190,9 +190,8 @@
            <div class="Blog-title"><h4 style="color:black;">Mission</h4></div>
            <div class="info"style="margin-left:0px;width:100%;">
              <p>
-                TO PROVIDE DURABLE AFRICAN INDIGENOUS VEGETABLES (AIVs) AND MUSHROOMS 
-                WITH AN ENHANCED TASTE TO BUSY SCHEDULED PEOPLE AND PROVIDE CONSISTENT 
-                MARKET FOR AGROECOLOGY FARMERS
+                To provide durable african indigenous vegetables (AIVs) and mushrooms with enhanced taste
+                to busy scheduled people and provide consistent market for agroceology farmers
              </p>
            </div>
           </div>
